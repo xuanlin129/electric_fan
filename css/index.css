@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select:none;
+}
+
+#wrap {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#fan {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 5%;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.btn {
+  font-size: 50px;
+}
+
+.btn > * {
+  cursor: pointer;
+}
+
+.toggle {
+  color: grey;
+}
+
+.active {
+  color: #999;
+  transition: all .5s;
+  transform: scale(0.9);
+}
