@@ -5,12 +5,32 @@
   user-select:none;
 }
 
+body {
+  width: 100%;
+  height: 100vh;
+  background: url('../images/bg_cloud.svg') no-repeat center/cover;
+  background-attachment: fixed;
+}
+
 #wrap {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#control {
+  width: 30%;
+  height: 50vh;
+  min-width: 300px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+  box-shadow: 0 0 10px #ccc;
 }
 
 #fan {
